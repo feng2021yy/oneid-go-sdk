@@ -1,0 +1,5 @@
+package bind
+
+func Bind() {
+
+}
