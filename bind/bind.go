@@ -1,5 +1,0 @@
-package bind
-
-func Bind() {
-
-}
