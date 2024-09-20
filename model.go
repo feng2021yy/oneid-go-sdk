@@ -1,15 +1,29 @@
 package oneid_go_sdk
 
-type Game_id struct {
+// ScrmId 社群账号id
+type ScrmId struct {
+}
+
+// GameOpenId 游戏openId
+type GameOpenId struct {
 	ChannelId   int32
 	ChannelCode string
 	OpenId      string
 }
 
-type Wx_id struct {
+// GameRoleId 游戏角色id
+type GameRoleId struct {
 }
 
-// 其他渠道下的id】
+// MiniProgramId 小程序id
+type MiniProgramId struct {
+}
+
+// WxOpenId 微信开放平台id
+type WxOpenId struct {
+}
+
+// OtherId 其他渠道下的id
 type OtherId struct {
 	ChannelId   int32
 	ChannelCode string
